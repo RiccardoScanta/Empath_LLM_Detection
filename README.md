@@ -1,6 +1,6 @@
 # Semantic Delta: A Single Interpretable Signal Differentiating Human and LLM Dialogue
 
-This repository contains the implementation of a statistical framework designed to distinguish between **human-written** and **Large Language Model (LLM)** generated dialogue.
+This repository contains the implementation of a statistical framework designed to help distinguish between **human-written** and **Large Language Model (LLM)** generated dialogue.
 
 The research introduces a **lightweight and interpretable metric**, called **Semantic Delta**, derived from semantic category distributions.
 
@@ -35,7 +35,7 @@ LLM-generated outputs exhibit **stronger thematic concentration** (higher Semant
 
 ## 📊 Experimental Results
 
-Systematic analysis across large-scale samples shows that **AI-generated texts consistently produce significantly higher Semantic Delta values** than human-written texts.
+Systematic analysis across samples shows that **AI-generated texts consistently produce higher Semantic Delta values** than human-written texts.
 
 ### Key Statistics
 
@@ -51,15 +51,14 @@ A Welch’s *t*-test produced a **p-value < 0.05**, confirming statistically sig
 
 ## 🛠️ Technical Stack
 
-* **Language:** Python
-* **Analysis:** Empath Library
 * **Models Evaluated:**
 
   * gpt-4.1-mini
   * gpt-5-mini
-  * gpt-4-mini
-* **Data Science Tools:**
-
+  * gpt-4o-mini
+* **Language:** Python
+* **Libraries:**
+  * Empath
   * Pandas
   * NumPy
   * Matplotlib
